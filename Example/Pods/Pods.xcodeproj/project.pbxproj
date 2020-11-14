@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = A0070B14442D3C03B1A6492EA4BF1FA7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0517726A9D75EF0AB5008742CE5ED124 /* HZSCountdownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D868771053A278745099DC5482FB9D36 /* HZSCountdownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 668E97BBA201E09600CB043B1F1F3083 /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE197D88470118D68C7CAB77724F0C /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E408E341C92E782EDFF7FF87E88F4FB /* QuartzCore.framework */; };
+		1E56A27E18E38F8AE05265A07A80CC56 /* HZSWeakTimerTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBEAEA5E35EF5E567AB272759CE9618 /* HZSWeakTimerTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4349937D092DB71B942491B42766A0BA /* UIImage+Compare.m */; };
+		35321C6DABAE2FED3D813BAB0C0537BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */; };
+		3FFE948704A7A6BBA883CD4AFC1C9C64 /* HZSCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063F30A36F5060B3CB47BB3D7CCEB51 /* HZSCountdownButton.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D33F65A3C0659FD39CDC63A07B8335 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41B9DDDCABBBD1918849C89C1293D2D5 /* HZSCountdownButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCF5E01F6A046456C11E44AE9689810 /* HZSCountdownButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190E5931002A6CB52BBBDCD7CE1011AE /* XCTest.framework */; };
+		6CBD348CD1FADD7DF7BFE84A47768261 /* HZSWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DB80E19BB786F6EE43FE7C5D70531D /* HZSWeakTimerTarget.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF39FBAD518DF542041E78923A026B /* FBSnapshotTestCase-dummy.m */; };
+		761F553B0A9AEB0251FD4E821FE2534F /* HZSWeakTimerTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85BC45542C618DBC71C2B34B36B336 /* HZSWeakTimerTarget.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A8C8215663FDF49820C967F35E149 /* FBSnapshotTestController.m */; };
+		8A2B65461517951E688A8809A01219DE /* Pods-HZSCountdownButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF70367B578D1DD791289EC12DCC5F /* Pods-HZSCountdownButton_Tests-dummy.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D87AD9DC42D9AE15098AD9A3D155AEC7 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB449974C125FD64072B53979B0BA347 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963E52354F23F6B2010A6F6A7DAC8064 /* Pods-HZSCountdownButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DBB0A08BDC32F260BC058596F2A733 /* Pods-HZSCountdownButton_Example-dummy.m */; };
+		9B15448875E5281F8B2DB34984BF1845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC03F540AA461AFFC93357FF220439 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE15541414E52509A0DDF377102054 /* UIImage+Snapshot.m */; };
+		A66A69962113C15BDBC618D537160A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */; };
+		AE041C0A982FC2B3A3330A0B9631BB5F /* HZSCountdownButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6783C7533F956CFA500BDEAD038ABF /* HZSCountdownButton-dummy.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C54E89C0AA7B3B8A4ABF59025D7A40 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C43B508D6D9B112E8CB7BCCEA90D8CEE /* Pods-HZSCountdownButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFB499BDD68A5E4D96A5B26DA189ACE /* Pods-HZSCountdownButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEB7B17B079CD2C9DAC0EA9F53AB48D /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFA6CEB5D0DC75F327B37FD56DDDDDA /* HZSWeakTimerTarget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519AF785F1015A7B1EF11644FEFFC40A /* HZSWeakTimerTarget-dummy.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D96E5821B0C81EDCFC7DDDB4CDEF2E3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D464E4A53D45F1D82D33EE9B461C0EA5 /* Pods-HZSCountdownButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE005856AB28D697F528EEBFFE22AE46 /* Pods-HZSCountdownButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64215F739F0E64D37088F27529DCCE1D /* UIKit.framework */; };
+		E48DA5EC27EBE1DB941814835C9E9A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F3665E891840C92495145D358105CEF5 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CABE299447489CD9380EE6F8E694FE4 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE05A4584684A751FD96AC61349F4E40 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA1E6709865255BCEA02464A796B216 /* HZSWeakTimerTarget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3882D852C51ADAC347AA57A264DBF8E /* HZSWeakTimerTarget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C18B2D4B143EC9186328A612DDDB087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		2E6E1DDE995F49F2DEA377609BAFA3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF40D41DE5DAC78851EBF9624E7D336;
+			remoteInfo = HZSCountdownButton;
+		};
+		5715FF3382CF92B083F4A3AA8967AF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF064D4102532EA077E5E50C384CE647;
+			remoteInfo = HZSWeakTimerTarget;
+		};
+		697178CFCD94BF33CC34FC4C8D3EFDEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF064D4102532EA077E5E50C384CE647;
+			remoteInfo = HZSWeakTimerTarget;
+		};
+		7049A16C5434F5B50CD861439A04EAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB53D8BC054360525435DD21FCC5922F;
+			remoteInfo = "Pods-HZSCountdownButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00912C595759B0DBD0DC222A8DA09883 /* Pods-HZSCountdownButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZSCountdownButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		069E086FC8B72AA722C178FF73288C52 /* HZSWeakTimerTarget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZSWeakTimerTarget-prefix.pch"; sourceTree = "<group>"; };
+		09107DBAEACA8F8760963F40B4CC9131 /* Pods-HZSCountdownButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZSCountdownButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0D96E5821B0C81EDCFC7DDDB4CDEF2E3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		0E408E341C92E782EDFF7FF87E88F4FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0FCF5E01F6A046456C11E44AE9689810 /* HZSCountdownButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZSCountdownButton-umbrella.h"; sourceTree = "<group>"; };
+		122FF7B75E71B183FECD34BB54A79ED5 /* Pods-HZSCountdownButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZSCountdownButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		190E5931002A6CB52BBBDCD7CE1011AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1E0130E382F1B9BE565318F820F77434 /* HZSWeakTimerTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZSWeakTimerTarget.release.xcconfig; sourceTree = "<group>"; };
+		2063F30A36F5060B3CB47BB3D7CCEB51 /* HZSCountdownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HZSCountdownButton.m; path = HZSCountdownButton/Classes/HZSCountdownButton.m; sourceTree = "<group>"; };
+		26DF39FBAD518DF542041E78923A026B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		38DBB0A08BDC32F260BC058596F2A733 /* Pods-HZSCountdownButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZSCountdownButton_Example-dummy.m"; sourceTree = "<group>"; };
+		415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4349937D092DB71B942491B42766A0BA /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		446B83F93735FBC9918AEB0EB47F7724 /* HZSCountdownButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HZSCountdownButton.framework; path = HZSCountdownButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC250A6E70210B03CE8C6AF83CC823E /* HZSWeakTimerTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZSWeakTimerTarget.debug.xcconfig; sourceTree = "<group>"; };
+		4BBEAEA5E35EF5E567AB272759CE9618 /* HZSWeakTimerTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZSWeakTimerTarget.h; path = HZSWeakTimerTarget/Classes/HZSWeakTimerTarget.h; sourceTree = "<group>"; };
+		503D5EFC1A5A2469ACC0D67C5EF59BEE /* HZSCountdownButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HZSCountdownButton.modulemap; sourceTree = "<group>"; };
+		51123115EB1B49C35C7B3DB46626632B /* HZSCountdownButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HZSCountdownButton-Info.plist"; sourceTree = "<group>"; };
+		519AF785F1015A7B1EF11644FEFFC40A /* HZSWeakTimerTarget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZSWeakTimerTarget-dummy.m"; sourceTree = "<group>"; };
+		540F5C8E69C9F8BAFC7A5D343C22F348 /* Pods-HZSCountdownButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZSCountdownButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57C678CFD0DEDB7D02D9FA2AC7E4A673 /* Pods-HZSCountdownButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZSCountdownButton_Example-Info.plist"; sourceTree = "<group>"; };
+		5BB7EBFCB1FE9C20795545206C7F9596 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64215F739F0E64D37088F27529DCCE1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		64CF70367B578D1DD791289EC12DCC5F /* Pods-HZSCountdownButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZSCountdownButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		650BA21F3CDFA8F0507C298EB8F3FDEC /* Pods-HZSCountdownButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZSCountdownButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		668E97BBA201E09600CB043B1F1F3083 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		6762FBFD5D4500F049B03A94BCA7A0DF /* HZSWeakTimerTarget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HZSWeakTimerTarget.modulemap; sourceTree = "<group>"; };
+		684FEB36DD07D036C4E16A1B62464CC8 /* HZSCountdownButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZSCountdownButton.debug.xcconfig; sourceTree = "<group>"; };
+		6F6783C7533F956CFA500BDEAD038ABF /* HZSCountdownButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZSCountdownButton-dummy.m"; sourceTree = "<group>"; };
+		72C54E89C0AA7B3B8A4ABF59025D7A40 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		78BC03F540AA461AFFC93357FF220439 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		79AFD74AF65172B9D47DD15EE398731C /* Pods-HZSCountdownButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HZSCountdownButton_Example.modulemap"; sourceTree = "<group>"; };
+		7C85BC45542C618DBC71C2B34B36B336 /* HZSWeakTimerTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HZSWeakTimerTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8C0E9B080CF8FE536214C42A2D668C /* Pods-HZSCountdownButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZSCountdownButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7CABE299447489CD9380EE6F8E694FE4 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		7EEB7B17B079CD2C9DAC0EA9F53AB48D /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		81B6D86AA3EF47AB73B3B66B46380D1C /* Pods-HZSCountdownButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZSCountdownButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C8CBEA61835A69FCF03E95C9F87BC60 /* HZSWeakTimerTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HZSWeakTimerTarget.framework; path = HZSWeakTimerTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA3DF99031A072BFF9050A999978C41 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		934B82EA3B9F8C4816776C602060CB22 /* Pods-HZSCountdownButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZSCountdownButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		940208C2D85742222F879F692D5B4BB1 /* Pods-HZSCountdownButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZSCountdownButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE2BCF2F06351BA718C9A7862884F16 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBCE761F05103150322000014985E32 /* Pods-HZSCountdownButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZSCountdownButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0070B14442D3C03B1A6492EA4BF1FA7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		A105F94D6371537DB1A8172EC647B336 /* HZSWeakTimerTarget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HZSWeakTimerTarget-Info.plist"; sourceTree = "<group>"; };
+		A3329F756B1D726BB03E09C414057F9A /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		A374DE21D7ECF4DA14F98ADAAEBD64AF /* HZSCountdownButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZSCountdownButton-prefix.pch"; sourceTree = "<group>"; };
+		A3CA2DE30CBFDC10CF81FA59C4084EA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE005856AB28D697F528EEBFFE22AE46 /* Pods-HZSCountdownButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZSCountdownButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB75E6524DC338A835B73BC92C62A537 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3882D852C51ADAC347AA57A264DBF8E /* HZSWeakTimerTarget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZSWeakTimerTarget-umbrella.h"; sourceTree = "<group>"; };
+		C8DE197D88470118D68C7CAB77724F0C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		C9B15A0FF83A07EED0CCA0FA294DB56C /* Pods-HZSCountdownButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HZSCountdownButton_Tests.modulemap"; sourceTree = "<group>"; };
+		CDFB499BDD68A5E4D96A5B26DA189ACE /* Pods-HZSCountdownButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZSCountdownButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		CE05A4584684A751FD96AC61349F4E40 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		CF197D4C23C2C2C8325FC7738893ECC6 /* Pods_HZSCountdownButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HZSCountdownButton_Tests.framework; path = "Pods-HZSCountdownButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CE15541414E52509A0DDF377102054 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D3E80FA68BBD980FDC51E2C91A1EBA7F /* Pods_HZSCountdownButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HZSCountdownButton_Example.framework; path = "Pods-HZSCountdownButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DB80E19BB786F6EE43FE7C5D70531D /* HZSWeakTimerTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HZSWeakTimerTarget.m; path = HZSWeakTimerTarget/Classes/HZSWeakTimerTarget.m; sourceTree = "<group>"; };
+		D868771053A278745099DC5482FB9D36 /* HZSCountdownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZSCountdownButton.h; path = HZSCountdownButton/Classes/HZSCountdownButton.h; sourceTree = "<group>"; };
+		D87AD9DC42D9AE15098AD9A3D155AEC7 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		DB449974C125FD64072B53979B0BA347 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		E57A8C8215663FDF49820C967F35E149 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E5A0DD5E2C3A225582940C1B03992202 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		E99D30651298AD03914843868890528A /* Pods-HZSCountdownButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZSCountdownButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3665E891840C92495145D358105CEF5 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		F5D33F65A3C0659FD39CDC63A07B8335 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		FB24DEEB5F20766F9DAA21F7386F9C43 /* HZSCountdownButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HZSCountdownButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FCC8823B2A708B4BBE87A974F45C01EC /* HZSCountdownButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZSCountdownButton.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3198D50B5602C77F316D8285C2D447C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A69962113C15BDBC618D537160A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D026BF4E92485AAD3D701861F5D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35321C6DABAE2FED3D813BAB0C0537BF /* Foundation.framework in Frameworks */,
+				761F553B0A9AEB0251FD4E821FE2534F /* HZSWeakTimerTarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F16857475B8692EA95B39FD5AFBD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B15448875E5281F8B2DB34984BF1845 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF70F7171984674AEB047CA3176AB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48DA5EC27EBE1DB941814835C9E9A54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210D1D399AEBB6E9644B89185DDB0913 /* HZSCountdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				D868771053A278745099DC5482FB9D36 /* HZSCountdownButton.h */,
+				2063F30A36F5060B3CB47BB3D7CCEB51 /* HZSCountdownButton.m */,
+				76F09A9BDE3A125D76F10238A30125C6 /* Pod */,
+				4DD4DA84BBC7B5D97FC814F3F34D48A3 /* Support Files */,
+			);
+			name = HZSCountdownButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22509AC9ECA2F5F1CB190231FF151B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				446B83F93735FBC9918AEB0EB47F7724 /* HZSCountdownButton.framework */,
+				8C8CBEA61835A69FCF03E95C9F87BC60 /* HZSWeakTimerTarget.framework */,
+				D3E80FA68BBD980FDC51E2C91A1EBA7F /* Pods_HZSCountdownButton_Example.framework */,
+				CF197D4C23C2C2C8325FC7738893ECC6 /* Pods_HZSCountdownButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B907DC7AE23C42BFBB5B596259FD76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2BDBD96C16ECC0FD80CE169B06048DA /* FBSnapshotTestCase */,
+				C0E3CF47556BBB9DF4B950604E2459B5 /* HZSWeakTimerTarget */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24111DA80D402D20595F9AB4EF18F224 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				415FE29669550EEF2964A58E2654B5C7 /* Foundation.framework */,
+				0E408E341C92E782EDFF7FF87E88F4FB /* QuartzCore.framework */,
+				64215F739F0E64D37088F27529DCCE1D /* UIKit.framework */,
+				190E5931002A6CB52BBBDCD7CE1011AE /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		496F9410199ED6CE94A7970101AAF9C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FA3DF99031A072BFF9050A999978C41 /* FBSnapshotTestCase.modulemap */,
+				26DF39FBAD518DF542041E78923A026B /* FBSnapshotTestCase-dummy.m */,
+				E5A0DD5E2C3A225582940C1B03992202 /* FBSnapshotTestCase-Info.plist */,
+				5BB7EBFCB1FE9C20795545206C7F9596 /* FBSnapshotTestCase-prefix.pch */,
+				CE05A4584684A751FD96AC61349F4E40 /* FBSnapshotTestCase-umbrella.h */,
+				9BE2BCF2F06351BA718C9A7862884F16 /* FBSnapshotTestCase.debug.xcconfig */,
+				A3329F756B1D726BB03E09C414057F9A /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		4DD4DA84BBC7B5D97FC814F3F34D48A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				503D5EFC1A5A2469ACC0D67C5EF59BEE /* HZSCountdownButton.modulemap */,
+				6F6783C7533F956CFA500BDEAD038ABF /* HZSCountdownButton-dummy.m */,
+				51123115EB1B49C35C7B3DB46626632B /* HZSCountdownButton-Info.plist */,
+				A374DE21D7ECF4DA14F98ADAAEBD64AF /* HZSCountdownButton-prefix.pch */,
+				0FCF5E01F6A046456C11E44AE9689810 /* HZSCountdownButton-umbrella.h */,
+				684FEB36DD07D036C4E16A1B62464CC8 /* HZSCountdownButton.debug.xcconfig */,
+				FCC8823B2A708B4BBE87A974F45C01EC /* HZSCountdownButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HZSCountdownButton";
+			sourceTree = "<group>";
+		};
+		4DF6A478004A9104A88F92EF40F7C58A /* Pods-HZSCountdownButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				79AFD74AF65172B9D47DD15EE398731C /* Pods-HZSCountdownButton_Example.modulemap */,
+				9EBCE761F05103150322000014985E32 /* Pods-HZSCountdownButton_Example-acknowledgements.markdown */,
+				E99D30651298AD03914843868890528A /* Pods-HZSCountdownButton_Example-acknowledgements.plist */,
+				38DBB0A08BDC32F260BC058596F2A733 /* Pods-HZSCountdownButton_Example-dummy.m */,
+				09107DBAEACA8F8760963F40B4CC9131 /* Pods-HZSCountdownButton_Example-frameworks.sh */,
+				57C678CFD0DEDB7D02D9FA2AC7E4A673 /* Pods-HZSCountdownButton_Example-Info.plist */,
+				CDFB499BDD68A5E4D96A5B26DA189ACE /* Pods-HZSCountdownButton_Example-umbrella.h */,
+				940208C2D85742222F879F692D5B4BB1 /* Pods-HZSCountdownButton_Example.debug.xcconfig */,
+				00912C595759B0DBD0DC222A8DA09883 /* Pods-HZSCountdownButton_Example.release.xcconfig */,
+			);
+			name = "Pods-HZSCountdownButton_Example";
+			path = "Target Support Files/Pods-HZSCountdownButton_Example";
+			sourceTree = "<group>";
+		};
+		565B2FB0AC6FA19DF2AEBF27B0EE7C3C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A0070B14442D3C03B1A6492EA4BF1FA7 /* FBSnapshotTestCase.h */,
+				D87AD9DC42D9AE15098AD9A3D155AEC7 /* FBSnapshotTestCase.m */,
+				7EEB7B17B079CD2C9DAC0EA9F53AB48D /* FBSnapshotTestCasePlatform.h */,
+				F3665E891840C92495145D358105CEF5 /* FBSnapshotTestCasePlatform.m */,
+				DB449974C125FD64072B53979B0BA347 /* FBSnapshotTestController.h */,
+				E57A8C8215663FDF49820C967F35E149 /* FBSnapshotTestController.m */,
+				F5D33F65A3C0659FD39CDC63A07B8335 /* UIApplication+StrictKeyWindow.h */,
+				668E97BBA201E09600CB043B1F1F3083 /* UIApplication+StrictKeyWindow.m */,
+				7CABE299447489CD9380EE6F8E694FE4 /* UIImage+Compare.h */,
+				4349937D092DB71B942491B42766A0BA /* UIImage+Compare.m */,
+				0D96E5821B0C81EDCFC7DDDB4CDEF2E3 /* UIImage+Diff.h */,
+				C8DE197D88470118D68C7CAB77724F0C /* UIImage+Diff.m */,
+				72C54E89C0AA7B3B8A4ABF59025D7A40 /* UIImage+Snapshot.h */,
+				D3CE15541414E52509A0DDF377102054 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5EFC66FE4E009A1E891F536B1689B764 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				210D1D399AEBB6E9644B89185DDB0913 /* HZSCountdownButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		610408D7A664A636AB83C1EB5E47EB6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C85BC45542C618DBC71C2B34B36B336 /* HZSWeakTimerTarget.framework */,
+				24111DA80D402D20595F9AB4EF18F224 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76F09A9BDE3A125D76F10238A30125C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB24DEEB5F20766F9DAA21F7386F9C43 /* HZSCountdownButton.podspec */,
+				BB75E6524DC338A835B73BC92C62A537 /* LICENSE */,
+				A3CA2DE30CBFDC10CF81FA59C4084EA7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C9BEFCFC2F781462353D188E5EF6D84 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				78BC03F540AA461AFFC93357FF220439 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B2BDBD96C16ECC0FD80CE169B06048DA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				565B2FB0AC6FA19DF2AEBF27B0EE7C3C /* Core */,
+				496F9410199ED6CE94A7970101AAF9C9 /* Support Files */,
+				8C9BEFCFC2F781462353D188E5EF6D84 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C0875AE5257891532488CE0A9DE93832 /* Pods-HZSCountdownButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B15A0FF83A07EED0CCA0FA294DB56C /* Pods-HZSCountdownButton_Tests.modulemap */,
+				81B6D86AA3EF47AB73B3B66B46380D1C /* Pods-HZSCountdownButton_Tests-acknowledgements.markdown */,
+				540F5C8E69C9F8BAFC7A5D343C22F348 /* Pods-HZSCountdownButton_Tests-acknowledgements.plist */,
+				64CF70367B578D1DD791289EC12DCC5F /* Pods-HZSCountdownButton_Tests-dummy.m */,
+				7C8C0E9B080CF8FE536214C42A2D668C /* Pods-HZSCountdownButton_Tests-frameworks.sh */,
+				934B82EA3B9F8C4816776C602060CB22 /* Pods-HZSCountdownButton_Tests-Info.plist */,
+				AE005856AB28D697F528EEBFFE22AE46 /* Pods-HZSCountdownButton_Tests-umbrella.h */,
+				650BA21F3CDFA8F0507C298EB8F3FDEC /* Pods-HZSCountdownButton_Tests.debug.xcconfig */,
+				122FF7B75E71B183FECD34BB54A79ED5 /* Pods-HZSCountdownButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-HZSCountdownButton_Tests";
+			path = "Target Support Files/Pods-HZSCountdownButton_Tests";
+			sourceTree = "<group>";
+		};
+		C0E3CF47556BBB9DF4B950604E2459B5 /* HZSWeakTimerTarget */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEAEA5E35EF5E567AB272759CE9618 /* HZSWeakTimerTarget.h */,
+				D7DB80E19BB786F6EE43FE7C5D70531D /* HZSWeakTimerTarget.m */,
+				CF106F6E7FAF6150B69AB8D3C6BF2FC5 /* Support Files */,
+			);
+			name = HZSWeakTimerTarget;
+			path = HZSWeakTimerTarget;
+			sourceTree = "<group>";
+		};
+		C5EA2C68A803779E8B96FB8AB5287123 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6A478004A9104A88F92EF40F7C58A /* Pods-HZSCountdownButton_Example */,
+				C0875AE5257891532488CE0A9DE93832 /* Pods-HZSCountdownButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF106F6E7FAF6150B69AB8D3C6BF2FC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6762FBFD5D4500F049B03A94BCA7A0DF /* HZSWeakTimerTarget.modulemap */,
+				519AF785F1015A7B1EF11644FEFFC40A /* HZSWeakTimerTarget-dummy.m */,
+				A105F94D6371537DB1A8172EC647B336 /* HZSWeakTimerTarget-Info.plist */,
+				069E086FC8B72AA722C178FF73288C52 /* HZSWeakTimerTarget-prefix.pch */,
+				C3882D852C51ADAC347AA57A264DBF8E /* HZSWeakTimerTarget-umbrella.h */,
+				4AC250A6E70210B03CE8C6AF83CC823E /* HZSWeakTimerTarget.debug.xcconfig */,
+				1E0130E382F1B9BE565318F820F77434 /* HZSWeakTimerTarget.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HZSWeakTimerTarget";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5EFC66FE4E009A1E891F536B1689B764 /* Development Pods */,
+				610408D7A664A636AB83C1EB5E47EB6C /* Frameworks */,
+				22B907DC7AE23C42BFBB5B596259FD76 /* Pods */,
+				22509AC9ECA2F5F1CB190231FF151B94 /* Products */,
+				C5EA2C68A803779E8B96FB8AB5287123 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA25FAA7A4A98842CE21095E23DB6DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D464E4A53D45F1D82D33EE9B461C0EA5 /* Pods-HZSCountdownButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E453D9E5A55C109D8CF5EA2923D0E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1E6709865255BCEA02464A796B216 /* HZSWeakTimerTarget-umbrella.h in Headers */,
+				1E56A27E18E38F8AE05265A07A80CC56 /* HZSWeakTimerTarget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF97CB9A57022492E959044CFF2D7C88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43B508D6D9B112E8CB7BCCEA90D8CEE /* Pods-HZSCountdownButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2A7C69199D2796A18BAEC8DD586D7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9DDDCABBBD1918849C89C1293D2D5 /* HZSCountdownButton-umbrella.h in Headers */,
+				0517726A9D75EF0AB5008742CE5ED124 /* HZSCountdownButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CF40D41DE5DAC78851EBF9624E7D336 /* HZSCountdownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD87FA8B65899C3A85B2956D5C7776AE /* Build configuration list for PBXNativeTarget "HZSCountdownButton" */;
+			buildPhases = (
+				CE2A7C69199D2796A18BAEC8DD586D7B /* Headers */,
+				E5504401174B122A6FD64EF749FFF021 /* Sources */,
+				806D026BF4E92485AAD3D701861F5D84 /* Frameworks */,
+				A2664D1B2981E60D674A2068D6F53DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8C75D1C7EDCC488B69C87076D369EE /* PBXTargetDependency */,
+			);
+			name = HZSCountdownButton;
+			productName = HZSCountdownButton;
+			productReference = 446B83F93735FBC9918AEB0EB47F7724 /* HZSCountdownButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9346ABAD7D209ADFC2D673EDDC946AD9 /* Pods-HZSCountdownButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22AE277ADACC79D742104F1A41306CD /* Build configuration list for PBXNativeTarget "Pods-HZSCountdownButton_Tests" */;
+			buildPhases = (
+				5EA25FAA7A4A98842CE21095E23DB6DE /* Headers */,
+				8E1D5D725A423C8B755A8A86CD33B60A /* Sources */,
+				3198D50B5602C77F316D8285C2D447C7 /* Frameworks */,
+				C8DC06AE3CA4B881DC025D6B63F64E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174D28499F1C3E11D5782B73582045F7 /* PBXTargetDependency */,
+				35B9C5C989A4EEC5706E16B21078C3CA /* PBXTargetDependency */,
+			);
+			name = "Pods-HZSCountdownButton_Tests";
+			productName = "Pods-HZSCountdownButton_Tests";
+			productReference = CF197D4C23C2C2C8325FC7738893ECC6 /* Pods_HZSCountdownButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB53D8BC054360525435DD21FCC5922F /* Pods-HZSCountdownButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934A9DDD2C5A03B48D815CAA031DB178 /* Build configuration list for PBXNativeTarget "Pods-HZSCountdownButton_Example" */;
+			buildPhases = (
+				BF97CB9A57022492E959044CFF2D7C88 /* Headers */,
+				CEAC163620B0BA304BBD3C19059F8050 /* Sources */,
+				A7F16857475B8692EA95B39FD5AFBD15 /* Frameworks */,
+				153B425B58F1CAA1B30FB438A24D2BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0357CECCA5637BC895EB5393673E2D /* PBXTargetDependency */,
+				9CE224E7932E840F16E80E464DC6110A /* PBXTargetDependency */,
+			);
+			name = "Pods-HZSCountdownButton_Example";
+			productName = "Pods-HZSCountdownButton_Example";
+			productReference = D3E80FA68BBD980FDC51E2C91A1EBA7F /* Pods_HZSCountdownButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF064D4102532EA077E5E50C384CE647 /* HZSWeakTimerTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E5E958839EB2B88D7966F19520B535 /* Build configuration list for PBXNativeTarget "HZSWeakTimerTarget" */;
+			buildPhases = (
+				A7E453D9E5A55C109D8CF5EA2923D0E5 /* Headers */,
+				A78CC80886C5BC228A6AD1D676240E37 /* Sources */,
+				BCF70F7171984674AEB047CA3176AB6C /* Frameworks */,
+				CCC10367D0398636DA07E87991755ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZSWeakTimerTarget;
+			productName = HZSWeakTimerTarget;
+			productReference = 8C8CBEA61835A69FCF03E95C9F87BC60 /* HZSWeakTimerTarget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 22509AC9ECA2F5F1CB190231FF151B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				4CF40D41DE5DAC78851EBF9624E7D336 /* HZSCountdownButton */,
+				EF064D4102532EA077E5E50C384CE647 /* HZSWeakTimerTarget */,
+				BB53D8BC054360525435DD21FCC5922F /* Pods-HZSCountdownButton_Example */,
+				9346ABAD7D209ADFC2D673EDDC946AD9 /* Pods-HZSCountdownButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153B425B58F1CAA1B30FB438A24D2BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2664D1B2981E60D674A2068D6F53DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DC06AE3CA4B881DC025D6B63F64E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC10367D0398636DA07E87991755ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1D5D725A423C8B755A8A86CD33B60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2B65461517951E688A8809A01219DE /* Pods-HZSCountdownButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CC80886C5BC228A6AD1D676240E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA6CEB5D0DC75F327B37FD56DDDDDA /* HZSWeakTimerTarget-dummy.m in Sources */,
+				6CBD348CD1FADD7DF7BFE84A47768261 /* HZSWeakTimerTarget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAC163620B0BA304BBD3C19059F8050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963E52354F23F6B2010A6F6A7DAC8064 /* Pods-HZSCountdownButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5504401174B122A6FD64EF749FFF021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE041C0A982FC2B3A3330A0B9631BB5F /* HZSCountdownButton-dummy.m in Sources */,
+				3FFE948704A7A6BBA883CD4AFC1C9C64 /* HZSCountdownButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174D28499F1C3E11D5782B73582045F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 1C18B2D4B143EC9186328A612DDDB087 /* PBXContainerItemProxy */;
+		};
+		35B9C5C989A4EEC5706E16B21078C3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HZSCountdownButton_Example";
+			target = BB53D8BC054360525435DD21FCC5922F /* Pods-HZSCountdownButton_Example */;
+			targetProxy = 7049A16C5434F5B50CD861439A04EAAB /* PBXContainerItemProxy */;
+		};
+		9CE224E7932E840F16E80E464DC6110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZSWeakTimerTarget;
+			target = EF064D4102532EA077E5E50C384CE647 /* HZSWeakTimerTarget */;
+			targetProxy = 697178CFCD94BF33CC34FC4C8D3EFDEC /* PBXContainerItemProxy */;
+		};
+		ED8C75D1C7EDCC488B69C87076D369EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZSWeakTimerTarget;
+			target = EF064D4102532EA077E5E50C384CE647 /* HZSWeakTimerTarget */;
+			targetProxy = 5715FF3382CF92B083F4A3AA8967AF20 /* PBXContainerItemProxy */;
+		};
+		FF0357CECCA5637BC895EB5393673E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HZSCountdownButton;
+			target = 4CF40D41DE5DAC78851EBF9624E7D336 /* HZSCountdownButton */;
+			targetProxy = 2E6E1DDE995F49F2DEA377609BAFA3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15EEBEEED6BB6FFD39F9882F28280154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940208C2D85742222F879F692D5B4BB1 /* Pods-HZSCountdownButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CAD689377E3B6F4C0F3B2A6155E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122FF7B75E71B183FECD34BB54A79ED5 /* Pods-HZSCountdownButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZSCountdownButton_Tests/Pods-HZSCountdownButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZSCountdownButton_Tests/Pods-HZSCountdownButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE2BCF2F06351BA718C9A7862884F16 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4FC5F52D0014F32070C0C85C13540BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC8823B2A708B4BBE87A974F45C01EC /* HZSCountdownButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZSCountdownButton/HZSCountdownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZSCountdownButton/HZSCountdownButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZSCountdownButton/HZSCountdownButton.modulemap";
+				PRODUCT_MODULE_NAME = HZSCountdownButton;
+				PRODUCT_NAME = HZSCountdownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7056E8B6EE163B6F1C6A27731290093B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC250A6E70210B03CE8C6AF83CC823E /* HZSWeakTimerTarget.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZSWeakTimerTarget/HZSWeakTimerTarget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZSWeakTimerTarget/HZSWeakTimerTarget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZSWeakTimerTarget/HZSWeakTimerTarget.modulemap";
+				PRODUCT_MODULE_NAME = HZSWeakTimerTarget;
+				PRODUCT_NAME = HZSWeakTimerTarget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		864A7AC4443EAD5D1A3AA9810A488BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00912C595759B0DBD0DC222A8DA09883 /* Pods-HZSCountdownButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA511BE56403BE5B73DAED0980A4A9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650BA21F3CDFA8F0507C298EB8F3FDEC /* Pods-HZSCountdownButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HZSCountdownButton_Tests/Pods-HZSCountdownButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HZSCountdownButton_Tests/Pods-HZSCountdownButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3329F756B1D726BB03E09C414057F9A /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C625168A89C29A584F10BF46C5E531D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684FEB36DD07D036C4E16A1B62464CC8 /* HZSCountdownButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZSCountdownButton/HZSCountdownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZSCountdownButton/HZSCountdownButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZSCountdownButton/HZSCountdownButton.modulemap";
+				PRODUCT_MODULE_NAME = HZSCountdownButton;
+				PRODUCT_NAME = HZSCountdownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE10183C6DEF0F908DCDB12A3BB2FBD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0130E382F1B9BE565318F820F77434 /* HZSWeakTimerTarget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HZSWeakTimerTarget/HZSWeakTimerTarget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZSWeakTimerTarget/HZSWeakTimerTarget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZSWeakTimerTarget/HZSWeakTimerTarget.modulemap";
+				PRODUCT_MODULE_NAME = HZSWeakTimerTarget;
+				PRODUCT_NAME = HZSWeakTimerTarget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E5E958839EB2B88D7966F19520B535 /* Build configuration list for PBXNativeTarget "HZSWeakTimerTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7056E8B6EE163B6F1C6A27731290093B /* Debug */,
+				EE10183C6DEF0F908DCDB12A3BB2FBD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934A9DDD2C5A03B48D815CAA031DB178 /* Build configuration list for PBXNativeTarget "Pods-HZSCountdownButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EEBEEED6BB6FFD39F9882F28280154 /* Debug */,
+				864A7AC4443EAD5D1A3AA9810A488BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD87FA8B65899C3A85B2956D5C7776AE /* Build configuration list for PBXNativeTarget "HZSCountdownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C625168A89C29A584F10BF46C5E531D7 /* Debug */,
+				4FC5F52D0014F32070C0C85C13540BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22AE277ADACC79D742104F1A41306CD /* Build configuration list for PBXNativeTarget "Pods-HZSCountdownButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA511BE56403BE5B73DAED0980A4A9BB /* Debug */,
+				345CAD689377E3B6F4C0F3B2A6155E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

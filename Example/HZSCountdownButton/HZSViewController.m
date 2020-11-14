@@ -7,6 +7,8 @@
 //
 
 #import "HZSViewController.h"
+#import "HZSTestViewController.h"
+
 
 @interface HZSViewController ()
 
@@ -25,5 +27,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.navigationController pushViewController:[HZSTestViewController new] animated:YES];
+}
 @end

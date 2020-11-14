@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6E734A24256012AD00A767B7 /* HZSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E734A23256012AD00A767B7 /* HZSTestViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		985B0C61F336140023A368F0 /* Pods_HZSCountdownButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE41C7437CE82CA781F247C /* Pods_HZSCountdownButton_Tests.framework */; };
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2212A768049709EEC9CB4A55 /* Pods-HZSCountdownButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSCountdownButton_Example.release.xcconfig"; path = "Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4485DAC723B9CF2D380696B6 /* HZSCountdownButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HZSCountdownButton.podspec; path = ../HZSCountdownButton.podspec; sourceTree = "<group>"; };
+		4485DAC723B9CF2D380696B6 /* HZSCountdownButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HZSCountdownButton.podspec; path = ../HZSCountdownButton.podspec; sourceTree = "<group>"; };
 		44AFDA822C0907A710DEBAAC /* Pods_HZSCountdownButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZSCountdownButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4705FD8F77371F73F4CF0673 /* Pods-HZSCountdownButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSCountdownButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-HZSCountdownButton_Tests/Pods-HZSCountdownButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5BE41C7437CE82CA781F247C /* Pods_HZSCountdownButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZSCountdownButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +62,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6E734A22256012AD00A767B7 /* HZSTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZSTestViewController.h; sourceTree = "<group>"; };
+		6E734A23256012AD00A767B7 /* HZSTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZSTestViewController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93213C8AAE091ADCB34C503E /* Pods-HZSCountdownButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSCountdownButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A953A82B6384CE6EA717A37F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A953A82B6384CE6EA717A37F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7D9D9D9C53C99C29C0ECE99 /* Pods-HZSCountdownButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSCountdownButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HZSCountdownButton_Tests/Pods-HZSCountdownButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAD0252DB5AA1BC27B068EFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FAD0252DB5AA1BC27B068EFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				E7D9D9D9C53C99C29C0ECE99 /* Pods-HZSCountdownButton_Tests.debug.xcconfig */,
 				4705FD8F77371F73F4CF0673 /* Pods-HZSCountdownButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HZSViewController.h */,
 				6003F5A6195388D20070C39A /* HZSViewController.m */,
+				6E734A22256012AD00A767B7 /* HZSTestViewController.h */,
+				6E734A23256012AD00A767B7 /* HZSTestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -344,10 +349,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HZSCountdownButton_Example/Pods-HZSCountdownButton_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HZSCountdownButton/HZSCountdownButton.framework",
+				"${BUILT_PRODUCTS_DIR}/HZSWeakTimerTarget/HZSWeakTimerTarget.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HZSCountdownButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HZSWeakTimerTarget.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,6 +392,7 @@
 			files = (
 				6003F59E195388D20070C39A /* HZSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HZSViewController.m in Sources */,
+				6E734A24256012AD00A767B7 /* HZSTestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +524,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZSCountdownButton/HZSCountdownButton-Prefix.pch";
 				INFOPLIST_FILE = "HZSCountdownButton/HZSCountdownButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +541,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZSCountdownButton/HZSCountdownButton-Prefix.pch";
 				INFOPLIST_FILE = "HZSCountdownButton/HZSCountdownButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

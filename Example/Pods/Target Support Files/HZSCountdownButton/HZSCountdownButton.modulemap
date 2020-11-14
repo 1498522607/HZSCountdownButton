@@ -1,0 +1,6 @@
+framework module HZSCountdownButton {
+  umbrella header "HZSCountdownButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

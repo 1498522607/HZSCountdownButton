@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HZSCountdownButton (1.0.0):
+    - HZSWeakTimerTarget (~> 2.0)
+  - HZSWeakTimerTarget (2.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HZSCountdownButton (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - HZSWeakTimerTarget
+
+EXTERNAL SOURCES:
+  HZSCountdownButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HZSCountdownButton: 19ad2479f5b45020d056d75a06283eb355660c38
+  HZSWeakTimerTarget: 865ec3f26849c97f3d821164a202bbf49157375d
+
+PODFILE CHECKSUM: 50dd1ec77d4ea2927478600e983e9086f4fe449a
+
+COCOAPODS: 1.9.3

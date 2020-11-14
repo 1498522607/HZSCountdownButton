@@ -1,0 +1,6 @@
+framework module Pods_HZSCountdownButton_Example {
+  umbrella header "Pods-HZSCountdownButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
