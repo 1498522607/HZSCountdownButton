@@ -2,7 +2,7 @@
 //  HZSCountdownButton.h
 //  FBSnapshotTestCase
 //
-//  Created by hzsMac on 2020/11/14.
+//  Created by 古德猫宁 on 2020/11/14.
 //
 
 #import <UIKit/UIKit.h>

@@ -22,7 +22,7 @@ pod 'HZSCountdownButton'
 
 ## Author
 
-1498522607@qq.com, huangzushu@ds.cn
+古德猫宁, 1498522607@qq.com
 
 ## License
 
